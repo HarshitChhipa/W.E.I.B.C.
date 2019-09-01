@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'WIBC';
+  heading = 'Your Account summary';
+  investValue = {title: 'Investment Value', value: 'Sgd 7,977'};
+  currentInvestment = {title: 'Current Value', value: 'sgd 2,839'};
+  annualReturn = {title: 'Annual Returns', value: '-100.0%'};
+  cashBalance = {title: 'Cash Balance', value: 'Sgd 1,097'};
 }
